@@ -1,0 +1,12 @@
+Source: http://blogs.technet.com/b/askperf/archive/2008/01/25/an-overview-of-troubleshooting-memory-issues.aspx
+
+There are two types of memory pressure to consider:
+
+1. First - a system with too little physical RAM installed.
+
+When a system has too little RAM, the Virtual Memory Manager has an increased workload as it attempts to keep
+the most recently accessed virtual memory pages of processes in Physical RAM so that they can be quickly retrieved.
+Performance of both applications, and the overall system may suffer as a result of the --INCREASED PAGING TO DISK--.
+Although the excessive paging is really a secondary symptom, it is the easiest symptom to detect.
+
+2. Second - process exhausts the available virtual memory.
