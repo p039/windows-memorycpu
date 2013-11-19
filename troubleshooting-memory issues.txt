@@ -12,7 +12,7 @@ Although the excessive paging is really a secondary symptom, it is the easiest s
 2. Second - process exhausts the available virtual memory.
 
 
-
+Source: http://msdn.microsoft.com/en-us/library/windows/hardware/ff560206(v=vs.85).aspx
 Monitor memory leaks:
 
 -Private Bytes counter indicates the total amount of memory that a process has allocated,
