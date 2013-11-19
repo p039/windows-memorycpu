@@ -10,3 +10,15 @@ Performance of both applications, and the overall system may suffer as a result 
 Although the excessive paging is really a secondary symptom, it is the easiest symptom to detect.
 
 2. Second - process exhausts the available virtual memory.
+
+
+
+Monitor memory leaks:
+
+-Private Bytes counter indicates the total amount of memory that a process has allocated,
+not including memory shared with other processes.
+
+-Virtual Bytes counter indicates the current size of the virtual address space that the process is using.
+
+Summary: Some memory leaks appear in the data file as an increase in private bytes allocated.
+Other memory leaks show up as an increase in the virtual address space.
