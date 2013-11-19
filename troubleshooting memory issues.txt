@@ -1,4 +1,4 @@
-Source: http://blogs.technet.com/b/askperf/archive/2008/01/25/an-overview-of-troubleshooting-memory-issues.aspx
+﻿Source: http://blogs.technet.com/b/askperf/archive/2008/01/25/an-overview-of-troubleshooting-memory-issues.aspx
 
 There are two types of memory pressure to consider:
 
