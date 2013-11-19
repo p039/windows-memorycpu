@@ -1,6 +1,6 @@
-Source: http://www.sources.ru/csharp/Introduction-to-Memory-Mapped-Files.html
+﻿Source: http://www.sources.ru/csharp/Introduction-to-Memory-Mapped-Files.html
 
-Достум к MMF происходит как к обычному массиву. Т.е. мы можем создать фаил на диске, этот
+Доступ к MMF происходит как к обычному массиву. Т.е. мы можем создать фаил на диске, этот
 фаил будет промаплен в память и б итоге мы будем работать с памятью и писать/читать этот фаил
 как в обычный массив.
 
